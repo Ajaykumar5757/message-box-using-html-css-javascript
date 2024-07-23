@@ -1,4 +1,4 @@
-let msg=document.getElementById("text").value;
+let msg=document.getElementById("text");
 function check(){
     if(msg=='how was your day?'){
         document.getElementById("content").innerHTML="your question is accepted";
